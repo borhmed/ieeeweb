@@ -10,6 +10,15 @@ body {
   display: flex;
   width: 20%;
 }
+.layout_paddingf{
+  padding: 90px 0;
+ display: block;
+
+  border-radius: 3%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 
 .layout_padding {
   padding: 90px 0;
