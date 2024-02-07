@@ -141,7 +141,7 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background: linear-gradient(130deg, #231a6f, #0f054c);
+  background: linear-gradient(#FBFDFCff ,#65BE81ff, #23585Cff, #326689ff);
 }
 
 .sub_page .hero_area .hero_bg_box {
@@ -160,7 +160,7 @@ a:focus {
 .navbar-brand span {
   font-weight: bold;
   font-size: 24px;
-  color: #ffffff;
+  color:#00204a;
 }
 
 .custom_nav-container {
@@ -173,7 +173,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
-  color: #ffffff;
+  color: #00204a;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
@@ -194,7 +194,7 @@ a:focus {
   height: 35px;
   padding: 0;
   border: none;
-  color: #ffffff;
+  color: #00204a;
 }
 
 .custom_nav-container .nav_search-btn:hover {
@@ -295,11 +295,11 @@ a:focus {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: #ffffff;
+  color: #00204a;
 }
 
 .slider_section .detail-box p {
-  color: #fefefe;
+  color: #00204a;
   font-size: 14px;
 }
 
@@ -320,7 +320,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #00bbf0;
+  background-color: #00204a;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -335,7 +335,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn2 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #000000;
+  background: linear-gradient(#FBFDFCff ,#65BE81ff, #23585Cff, #326689ff);
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -399,7 +399,7 @@ a:focus {
 }
 
 .slider_section .carousel-indicators li {
-  background-color: #ffffff;
+  background-color: #00204a;
   width: 12px;
   height: 12px;
   border-radius: 100%;
@@ -497,8 +497,8 @@ a:focus {
 }
 
 .about_section {
-  background-color: #00204a;
-  color: #ffffff;
+  background: linear-gradient(#FBFDFCff ,#65BE81ff, #23585Cff, #326689ff);
+  color:#00204a;
 }
 
 .about_section .heading_container {
@@ -527,7 +527,7 @@ a:focus {
   display: inline-block;
   padding: 10px 45px;
   background-color: #00bbf0;
-  color: #ffffff;
+  color: #00204a;
   border-radius: 0px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -602,7 +602,7 @@ a:focus {
   display: inline-block;
   padding: 10px 45px;
   background-color: #00bbf0;
-  color: #ffffff;
+  color: #00204a;
   border-radius: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -638,7 +638,7 @@ a:focus {
   transition: all .1s;
   margin-top: 45px;
   background: -webkit-gradient(linear, left top, left bottom, from(#002759), to(#002b64));
-  background: linear-gradient(to bottom, #002759, #002b64);
+  background: linear-gradient(#FBFDFCff ,#65BE81ff, #23585Cff, #326689ff);
 }
 
 .team_section .team_container .box .img-box {
@@ -789,8 +789,8 @@ a:focus {
 
 /* client section end */
 .info_section {
-  background-color: #00204a;
-  color: #ffffff;
+  background: linear-gradient(#FBFDFCff ,#65BE81ff, #23585Cff, #326689ff);;
+  color: #00204a;
   padding: 45px 0 15px 0;
 }
 
