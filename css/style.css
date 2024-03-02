@@ -8,7 +8,7 @@ body {
 
 .logo img{
   display: flex;
-  width: 20%;
+  width: 30%;
 }
 .layout_paddingf{
   padding: 90px 0;
@@ -141,7 +141,7 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background: linear-gradient(#FBFDFCff ,#65BE81ff, #23585Cff, #326689ff);
+  background: linear-gradient(#C7F9CC ,#80ED99 ,#57CC99, #38A3A5, #22577A);
 }
 
 .sub_page .hero_area .hero_bg_box {
@@ -335,7 +335,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn2 {
   display: inline-block;
   padding: 10px 15px;
-  background: linear-gradient(#FBFDFCff ,#65BE81ff, #23585Cff, #326689ff);
+  background: linear-gradient(#C7F9CC ,#80ED99 ,#57CC99, #38A3A5, #22577A);
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -497,7 +497,7 @@ a:focus {
 }
 
 .about_section {
-  background: linear-gradient(#FBFDFCff ,#65BE81ff, #23585Cff, #326689ff);
+  background: linear-gradient(#ffffff ,#C7F9CC ,#80ED99 ,#57CC99, #38A3A5, #22577A);
   color:#00204a;
 }
 
@@ -638,7 +638,7 @@ a:focus {
   transition: all .1s;
   margin-top: 45px;
   background: -webkit-gradient(linear, left top, left bottom, from(#002759), to(#002b64));
-  background: linear-gradient(#FBFDFCff ,#65BE81ff, #23585Cff, #326689ff);
+  background: linear-gradient(#ffffff ,#C7F9CC ,#80ED99 ,#57CC99, #38A3A5, #22577A);
 }
 
 .team_section .team_container .box .img-box {
@@ -789,7 +789,7 @@ a:focus {
 
 /* client section end */
 .info_section {
-  background: linear-gradient(#FBFDFCff ,#65BE81ff, #23585Cff, #326689ff);;
+  background: linear-gradient(#ffffff ,#C7F9CC ,#80ED99 ,#57CC99, #38A3A5, #22577A);
   color: #00204a;
   padding: 45px 0 15px 0;
 }
