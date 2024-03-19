@@ -639,7 +639,7 @@ a:focus {
   transition: all .1s;
   margin-top: 45px;
   background: -webkit-gradient(linear, left top, left bottom, from(#002759), to(#002b64));
-  background: linear-gradient(#ffffff ,#C7F9CC ,#80ED99 ,#57CC99, #38A3A5, #22577A);
+  background: linear-gradient(#ffffff,#38A3A5,#22577A);
 }
 
 .team_section .team_container .box .img-box {
@@ -790,7 +790,7 @@ a:focus {
 
 /* client section end */
 .info_section {
-  background: linear-gradient(#ffffff ,#C7F9CC ,#80ED99 ,#57CC99, #38A3A5, #22577A);
+  background: linear-gradient(#ffffff,#38A3A5,#22577A);
   color: #00204a;
   padding: 45px 0 15px 0;
 }
