@@ -8,7 +8,8 @@ body {
 
 .logo img{
   display: flex;
-  width: 30%;
+  width: 35%;
+  margin-left: 5%;
 }
 .layout_paddingf{
   padding: 90px 0;
@@ -497,7 +498,7 @@ a:focus {
 }
 
 .about_section {
-  background: linear-gradient(#ffffff ,#C7F9CC ,#80ED99 ,#57CC99, #38A3A5, #22577A);
+  background: linear-gradient(#ffffff ,#C7F9CC ,#80ED99 ,#57CC99);
   color:#00204a;
 }
 
@@ -959,4 +960,5 @@ a:focus {
 	font-size: 17px;
 	margin-bottom: 0px;
 }
+
 /*# sourceMappingURL=style.css.map */
