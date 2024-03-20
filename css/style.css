@@ -621,6 +621,7 @@ a:focus {
   color: #00204a;
 }
 
+
 .team_section .heading_container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -909,12 +910,11 @@ a:focus {
 }
 
 .info_section form button {
+  background-color:#22577A;
   width: 100%;
   text-align: center;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #00bbf0;
-  color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -922,9 +922,7 @@ a:focus {
   margin-top: 15px;
 }
 
-.info_section form button:hover {
-  background-color: #0b0d74;
-}
+
 
 /* footer section*/
 .footer_section {
