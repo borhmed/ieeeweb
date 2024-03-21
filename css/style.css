@@ -498,7 +498,7 @@ a:focus {
 }
 
 .about_section {
-  background: linear-gradient(#ffffff ,#C7F9CC ,#80ED99 ,#57CC99);
+ background: linear-gradient(#ffffff,#38A3A5);
   color:#00204a;
 }
 
@@ -909,18 +909,6 @@ a:focus {
   color: #ffffff;
 }
 
-.info_section form button {
-  background-color:#22577A;
-  width: 100%;
-  text-align: center;
-  display: inline-block;
-  padding: 10px 55px;
-  border-radius: 0;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  border: none;
-  margin-top: 15px;
-}
 
 
 
@@ -957,6 +945,24 @@ a:focus {
 	margin-top: 20px;
 	font-size: 17px;
 	margin-bottom: 0px;
+}
+.green-line {
+  background: linear-gradient(#22577A,#38A3A5);
+  height: 5px;
+  width: 100%;
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: white;
+  background: linear-gradient(#22577A,#38A3A5);
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
