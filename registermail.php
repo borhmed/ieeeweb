@@ -1,6 +1,5 @@
 <?php
 $email=$_POST["emailadr"];
-$message=$_POST["message"];
 
 require"vendor/autoload.php";
 
@@ -17,10 +16,10 @@ $mail->SMTPSecure=PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port ="587";
 $mail->Username="ttalo1097@gmail.com";
 $mail->Password="xpmy yhui nmup cjpq";
-$mail->Subject ="Message";
-$mail->setFrom("ttalo1097@gmail.com",$email);
-$mail->addAddress("ahmedbourmech4@gmail.com");
-$mail->Body=$message;
+$mail->Subject ="Verification d'inscription";
+$mail->setFrom("ttalo1097@gmail.com",'PELSPLS');
+$mail->addAddress($email);
+$mail->Body='aaalarmaaach';
 $mail->Send();
 echo "email sent";
 header('location:index.html');
