@@ -108,7 +108,7 @@
         
         <div class="form-floating">
          
-          <input type="text" name="first_name" class="form-control" id="floatingInput" placeholder="aaaaa" >
+          <input type="text" name="first_name" class="form-control" id="floatingInput" placeholder="aaaaa" required>
           <label for="floatingInput" style="color: black;">First name</label>
         </div>
       </div> 
@@ -116,7 +116,7 @@
         
         <div class="form-floating">
          
-          <input type="text" name="last_name"  class="form-control" id="floatingInput" placeholder="aaaaaaa" >
+          <input type="text" name="last_name"  class="form-control" id="floatingInput" placeholder="aaaaaaa" required>
           <label for="floatingInput" style="color: black;">Last name</label>
         </div>
       </div>
@@ -124,7 +124,7 @@
         
         <div class="form-floating">
          
-          <input  type="tel" name="phone_number"  class="form-control" id="floatingInput" placeholder="88888888" >
+          <input  type="tel" name="phone_number"  class="form-control" id="floatingInput" placeholder="88888888" required>
           <label for="floatingInput" style="color: black;">Phone number</label>
         </div>
       </div>
@@ -132,13 +132,13 @@
     <div class="form-row">
       <div class="col-md-6 mb-3">
         <div class="form-floating">
-        <input name="university" type="text" class="form-control" id="floatingInput" placeholder="name">
+        <input name="university" type="text" class="form-control" id="floatingInput" placeholder="name" required>
         <label for="floatingInput" style="color: black;">University</label>
       </div>
     </div>
       <div class="col-md-6 mb-3">
         <div class="form-floating">
-        <input name="city" type="text" class="form-control" id="floatingInput" placeholder="name">
+        <input name="city" type="text" class="form-control" id="floatingInput" placeholder="name" required>
         <label for="floatingInput" style="color: black;">City</label>
       </div>
     </div>
@@ -146,7 +146,7 @@
     
   <div class="col-md-12 mb-3">
     <div class="form-floating">
-    <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
     <label for="floatingInput" style="color: black;">E-mail address</label>
   </div></div>
   <div class="col-md-12 mb-3">
@@ -224,9 +224,9 @@
     <div class="service_container">
       <div class="container ">
         <div class="heading_container heading_center">
-          <h2>
-            About <span>Us</span>
-          </h2>
+          <div class="green-line">
+            <span class="number">ABOUT</span>
+          </div>
           <p>
             We have a lot of activities in
             several domains such as:
@@ -309,84 +309,14 @@
 		<div class="container">
 		  <div class="text-center">
         <a href="#schedule">
-		   <button class="btn btn-outline-primary mt-3 " style="color: #00204a; border-color: #00204a;">SCHEDULE</button>
+		   <button class="btn  mt-3 " style="color: #00204a;">SCHEDULE</button>
         </a>
 		  </div>
 		</div>
         </div>
-  </section>
-
-  <!-- end programm section -->
-  
-  <!-------Team Start------->
-<section class="service_section layout_padding" data-scroll-index='3' id="team">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="sectioner-header text-center">
-          <h2>
-            OUR <span>TEAM</span>
-          </h2>
-          <span class="line"></span>
-          <p>this is our team:</p>
-        </div>
-        <div class="section-content text-center">
-          <div class="row">
-            <div class="col-md-3">
-              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/farah.png" class="img-fluid"/>
-                <h4>Farah Ben Amor</h4>
-                <p>PROJECT MANAGER</p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/chabbah.png" class="img-fluid"/>
-                <h4>Amin Chabbah</h4>
-                <p>PROGRAMM MANAGER</p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/maram.png" class="img-fluid"/>
-                <h4>Maram Mastouri</h4>
-                <p>TECHNICAL MANAGER</p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/khail.png" class="img-fluid"/>
-                <h4>Khalil Souid</h4>
-                <p>HACKATON MANAGER</p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="team-detail wow bounce" data-wow-delay="0.4s"> <img src="images/malak.png" class="img-fluid"/>
-                <h4>Malak Bouzidi</h4>
-                <p>GENERAL SECRETARY</p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="team-detail wow bounce" data-wow-delay="0.6s"> <img src="images/taboubi.png" class="img-fluid"/>
-                <h4>Farah Taboub</h4>
-                <p>LOGISTICS MANAGER</p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/haifa.png" class="img-fluid"/>
-                <h4>Haifa Essassi</h4>
-                <p>SPONSORING MANAGER</p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/roua.png" class="img-fluid"/>
-                <h4>Roua Mili</h4>
-                <p>PARTICIPATION MANAGER</p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/abida.png" class="img-fluid"/>
-                <h4>Mariem Abida</h4>
-                <p>MEDIA MANAGER</p>
-              </div>
-            </div>
-          </div>
+        <p>..............</p>
+      </div>
+		
         </div>
       </div>
     </div>
@@ -394,7 +324,7 @@
 </section>
 
 <!-------Team End-------> 
-<section class="about_section layout_padding" id="programm" style="background:linear-gradient(#80ED99 ,#C7F9CC,#ffffff);">
+<section class="about_section layout_padding" id="programm" style="background: linear-gradient(#38A3A5,#ffffff);">
   <div class="container  ">
    
       </div>
@@ -405,11 +335,11 @@
  <section class="" id="schedule">
   <div class="container  ">
     <div class="heading_container heading_center">
-      <h2>
-         Schedule
-      </h2>
+      <div class="green-line">
+        <span class="number">SCHEDULE</span>
+      </div>
       <p>
-        Here's the schedule of our programm:
+        Here's the schedule of our program:
       </p>
       <div class="container py-9 py-lg-11 position-relative z-index-1">
         <div class="row">
@@ -544,10 +474,85 @@
     
   </div>
       </div>
-</section>
+</section></section>
 
 
 <!-- end schedule section -->
+<!-------Previous------->
+<section class="service_section layout_padding" data-scroll-index='3' id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h2>
+            PREVIOUS <span>EDITION</span>
+          </h2>
+          <span class="line"></span>
+          <p>enjoy these pics:</p>
+        </div>
+        <div class="col-lg-12 mb-5 mb-lg-5" >
+          <div class="previous-img" data-wow-delay="0.4s"> <img src="images/Reseau-informatique-scaled.jng.jpeg" class="img-fluid"/>
+           
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------Previous end-------> 
+<!-------sponsors------->
+<section class="service_section layout_padding" data-scroll-index='3' id="team">
+  <div class="green-line">
+    <span class="number">SPONSORS</span>
+  </div>
+  <div class="container">
+    
+    <div class="row">
+      
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/farah.png" class="img-fluid"/>
+                
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/chabbah.png" class="img-fluid"/>
+                
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/maram.png" class="img-fluid"/>
+                
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/khail.png" class="img-fluid"/>
+                
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="team-detail wow bounce" data-wow-delay="0.4s"> <img src="images/malak.png" class="img-fluid"/>
+               
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="team-detail wow bounce" data-wow-delay="0.6s"> <img src="images/taboubi.png" class="img-fluid"/>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------sponsor end-------> 
+
 
 
   <!-- info section -->
