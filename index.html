@@ -102,7 +102,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form action=".//formulaire.php"  method="post" class="container" id="form"> 
+        <form action=".//formulaire.php"  method="post" class="container" enctype="multipart/form-data" id="form"> 
     <div class="form-row">
       <div class="col-md-4 mb-3">
         
@@ -152,7 +152,7 @@
   <div class="col-md-12 mb-3">
     <div class="form-container">
       <label for="CV">Please drop your CV</label>
-      <input name="CV" type="file" class="form-control" id="CV" accept=".pdf" required>
+      <input name="file" type="file" class="form-control" id="file" accept=".pdf" required>
       <small id="CVHelp" class="form-text text-muted">Please upload your CV in PDF format, with a maximum file size of 2MB.</small>
     </div>
 </div>
@@ -169,7 +169,7 @@
     <div class="container">
 		  <div class="text-left">
         
-		   <button class="btn btn-outline-primary mt-3 " >Register</button>
+		   <button name="registrer" class="btn btn-outline-primary mt-3 " >Register</button>
        
 		  </div>
 		</div>
@@ -189,11 +189,7 @@
                 <div class="col-md-6 ">
                   <div class="detail-box">
                     <h1>
-                      NRTF <br>
-                      
-                    </h1>
-                    <h1>
-                      National Re-Tech Fusion  <br>
+                      IEEE PELS BRMCH ALA ABDOUL AMMAR <br>
                       
                     </h1>
                     
@@ -313,7 +309,7 @@
 		<div class="container">
 		  <div class="text-center">
         <a href="#schedule">
-		   <button class="btn  mt-3 " style="color: #00204a;">SCHEDULE</button>
+		   <button class="btn btn-outline-primary mt-3 " style="color: #00204a; border-color: #00204a;">SCHEDULE</button>
         </a>
 		  </div>
 		</div>
@@ -398,7 +394,7 @@
 </section>
 
 <!-------Team End-------> 
-<section class="about_section layout_padding" id="programm" style="background: linear-gradient(#38A3A5,#ffffff);">
+<section class="about_section layout_padding" id="programm" style="background:linear-gradient(#80ED99 ,#C7F9CC,#ffffff);">
   <div class="container  ">
    
       </div>
@@ -552,81 +548,6 @@
 
 
 <!-- end schedule section -->
-<!-------Previous------->
-<section class="service_section layout_padding" data-scroll-index='3' id="team">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="sectioner-header text-center">
-          <h2>
-            PREVIOUS <span>EDITION</span>
-          </h2>
-          <span class="line"></span>
-          <p>enjoy these pics:</p>
-        </div>
-        <div class="col-lg-12 mb-5 mb-lg-5" >
-          <div class="previous-img" data-wow-delay="0.4s"> <img src="images/Reseau-informatique-scaled.jng.jpeg" class="img-fluid"/>
-           
-          </div>
-        </div>
-       
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-------Previous end-------> 
-<!-------sponsors------->
-<section class="service_section layout_padding" data-scroll-index='3' id="team">
-  <div class="green-line">
-    <span class="number">SPONSORS</span>
-  </div>
-  <div class="container">
-    
-    <div class="row">
-      
-        <div class="section-content text-center">
-          <div class="row">
-            <div class="col-md-2">
-              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/farah.png" class="img-fluid"/>
-                
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/chabbah.png" class="img-fluid"/>
-                
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/maram.png" class="img-fluid"/>
-                
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/khail.png" class="img-fluid"/>
-                
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="team-detail wow bounce" data-wow-delay="0.4s"> <img src="images/malak.png" class="img-fluid"/>
-               
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="team-detail wow bounce" data-wow-delay="0.6s"> <img src="images/taboubi.png" class="img-fluid"/>
-                
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-------sponsor end-------> 
-
 
 
   <!-- info section -->
@@ -717,11 +638,11 @@
             <input type="email" name="emailadr" class="form-control" id="floatingInput" placeholder="E-mail">
         
             <input type="text" name="message" class="form-control" id="floatingInput" placeholder="Your message">
-            <div class="text-center">
-              <a href="#foot" class="btn mt-3" style="color: #072247;">
+            <button type="submit" class="btn-box">
+              <a href="" class="btn btn-outline-primary ">
                 Send
               </a>
-            </div>
+            </button>
           </form>
         </div>
       </div>
