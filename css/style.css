@@ -555,7 +555,7 @@ a:focus {
 /*ends sponso section*/
 
 .info_section {
-  background: #38A3A5;
+  background-image:linear-gradient(#ffffff,#38A3A5);
   color: #00204a;
   padding: 45px 0 15px 0;
 }
