@@ -1,18 +1,14 @@
 <?php
-$first_name=$_POST["first_name"];
-$last_name=$_POST["last_name"];
-$phone_number=$_POST["phone_number"];
-$university=$_POST["university"];
-$city=$_POST["city"];
-$email=$_POST["email"];
-
 
 $host="localhost";
 $dbname="ieeepels";
 $username = "root";
 $password  ="";
+
 if (isset($_POST['registrer'])){
-    $target="lesCVS/".basename($_FILES['file']['name']);
+   
+    $phone_number=$_POST["phone_number"];
+    $target="lesCVS/".$phone_number.'-'.basename($_FILES['file']['name']);
 // }
 $conn=mysqli_connect( hostname: $host, 
                 database: $dbname,
@@ -22,29 +18,36 @@ $conn=mysqli_connect( hostname: $host,
 if(mysqli_connect_errno()){
     die("Connection error: " .mysqli_connect_errno());
 }
+
 $pname=$phone_number."-".$_FILES["file"]["name"];
+$first_name=$_POST["first_name"];
+$last_name=$_POST["last_name"];
+$email=$_POST["email"];
+$university=$_POST["university"];
+$city=$_POST["city"];
+
 // $tname=$_FILES["file"]["name"];
-$uploads_dir='/CVS';
-move_uploaded_file($pname,'./lesCVS');
+// $uploads_dir='/CVS';
+
 $sql= "INSERT INTO form (first_name, last_name, phone_number, university, city, email,CV)
         VALUES ('$first_name','$last_name','$phone_number','$university','$city','$email','$pname')";
         
 $stmt = mysqli_stmt_init($conn);
-if (! mysqli_stmt_prepare($stmt, $sql)){
-    die(mysqli_error($conn));
+// if (! mysqli_stmt_prepare($stmt, $sql)){
+//     die(mysqli_error($conn));
+// }
+mysqli_query($conn,$sql);
+// mysqli_stmt_bind_param($stmt,'sss',
+//                        $first_name,
+//                        $last_name,
+//                        $phone_number,
+//                        $university,
+//                        $city,
+//                        $email,
+//                        $pname );                                        
+// mysqli_stmt_execute($stmt);
+move_uploaded_file($_FILES['file']['tmp_name'],$target); 
 }
-
-mysqli_stmt_bind_param($stmt,'sss',
-                       $first_name,
-                       $last_name,
-                       $phone_number,
-                       $university,
-                       $city,
-                       $email,
-                       $pname );                                        
-mysqli_stmt_execute($stmt);
-
-echo "Record saved .";
 
 require"vendor/autoload.php";
 
