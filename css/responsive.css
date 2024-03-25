@@ -43,8 +43,11 @@
 }
 
 @media (max-width: 768px) {
-  .about_section .img-box {
+  .about-section .img-box {
     margin-bottom: 45px;
+  }
+  .sponso-detail img{
+    padding: 30% 30% 30% 30%;
   }
 
 }
