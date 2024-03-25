@@ -102,7 +102,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form action=".//formulaire.php"  method="post" class="container" id="form"> 
+        <form action=".//formulaire.php"  method="post" class="container" id="form" enctype="multipart/form-data"> 
     <div class="form-row">
       <div class="col-md-4 mb-3">
         
@@ -152,7 +152,7 @@
   <div class="col-md-12 mb-3">
     <div class="form-container">
       <label for="CV">Please drop your CV</label>
-      <input name="file" type="file" class="form-control" id="CV" accept=".pdf" required>
+      <input name="file" type="file" class="form-control" id="file" accept=".pdf" required>
       <small id="CVHelp" class="form-text text-muted">Please upload your CV in PDF format, with a maximum file size of 2MB.</small>
     </div>
 </div>
